@@ -1,0 +1,202 @@
+#title {
+  position: relative;
+  background-color: #ff4252;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.navbar-brand {
+  padding-left: 4px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.woof {
+  display: inline-block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4252;
+  color: whitesmoke;
+}
+
+.white-section {
+  background-color: whitesmoke;
+}
+
+body {
+  font-family: montserrat;
+  text-align: center;
+}
+
+/* headings */
+.big-heading {
+  padding-top: 50px;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* nav bar */
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title IMG */
+
+.iphone {
+  width: 50%;
+  position: relative;
+  left: 60px;
+  top: 175px;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+/* features*/
+#features {
+  position: relative;
+  padding: 7% 15%;
+  background-color: whitesmoke;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.info-icons {
+  color: #ff4252;
+}
+
+.fas:hover {
+  color: #f18595;
+}
+
+.icontext {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.icondesc {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #e26771;
+  color: whitesmoke;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #e26771;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA */
+
+#cta {
+  position: relative;
+  background-color: #e26771;
+  color: whitesmoke;
+}
+
+/* footer */
+
+#footer {
+  padding-top: 5%;
+  background-color: #fff;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 100;
+  color: gray;
+}
+
+.social-logo {
+  margin: 20px 10px;
+}
